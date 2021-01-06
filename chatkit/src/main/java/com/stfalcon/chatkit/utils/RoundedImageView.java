@@ -126,14 +126,11 @@ public class RoundedImageView extends AppCompatImageView {
     }
 
     private static class RoundedCornerDrawable extends Drawable {
-        private RectF mBounds = new RectF();
-
         private final RectF mBitmapRect = new RectF();
         private final int mBitmapWidth;
         private final int mBitmapHeight;
-
         private final Paint mBitmapPaint;
-
+        private RectF mBounds = new RectF();
         private float[] mRadii = new float[]{0, 0, 0, 0, 0, 0, 0, 0};
 
         private Path mPath = new Path();

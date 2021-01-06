@@ -3,7 +3,7 @@ apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion '29.0.2'
+    buildToolsVersion '29.0.3'
 
     defaultConfig {
         minSdkVersion 14
@@ -38,6 +38,6 @@ dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
-    implementation "com.google.android:flexbox:1.0.0"
+    implementation "com.google.android:flexbox:2.0.1"
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
 }
