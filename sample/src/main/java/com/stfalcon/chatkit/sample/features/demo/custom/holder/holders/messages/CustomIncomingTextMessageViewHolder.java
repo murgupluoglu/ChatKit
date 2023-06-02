@@ -36,11 +36,11 @@ public class CustomIncomingTextMessageViewHolder
         });
     }
 
-    public static class Payload {
-        public OnAvatarClickListener avatarClickListener;
-    }
-
     public interface OnAvatarClickListener {
         void onAvatarClick();
+    }
+
+    public static class Payload {
+        public OnAvatarClickListener avatarClickListener;
     }
 }
